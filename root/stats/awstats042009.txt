@@ -1,0 +1,400 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 200904 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2540                
+POS_VISITOR 6905                
+POS_DAY 8628                
+POS_DOMAIN 3231                
+POS_LOGIN 3461                
+POS_ROBOT 3616                
+POS_WORMS 4079                
+POS_EMAILSENDER 4210                
+POS_EMAILRECEIVER 4353                
+POS_SESSION 9290                
+POS_SIDER 9468                
+POS_FILETYPES 4488                
+POS_OS 4610                
+POS_BROWSER 4726                
+POS_SCREENSIZE 4888                
+POS_UNKNOWNREFERER 4962                
+POS_UNKNOWNREFERERBROWSER 5332                
+POS_ORIGIN 5414                
+POS_SEREFERRALS 5552                
+POS_PAGEREFS 5707                
+POS_SEARCHWORDS 5989                
+POS_KEYWORDS 6149                
+POS_MISC 2204                
+POS_ERRORS 6216                
+POS_CLUSTER 3317                
+POS_SIDER_404 6339                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090502084906 62 10308 37193052891
+FirstTime 20090401105139
+LastTime 20090430204218
+LastUpdate 20090531175420 62 61 0 0 0
+TotalVisits 77                  
+TotalUnique 41                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 44                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 4 93411 16 20 14862
+1 8 8 18347 6 9 5389
+2 2 5 36448 13 18 11020
+3 3 3 7863 10 14 11883
+4 0 0 0 77 81 75808
+5 55 55 56773 13 14 18150
+6 3 3 7863 14 17 16713
+7 0 0 0 5 9 2753
+8 57 57 61625 12 14 15683
+9 2 2 5242 22 23 21384
+10 5 5 10484 17 20 22392
+11 5 5 8580 12 15 9583
+12 1 1 2621 6 10 5360
+13 4 9 234775 13 19 18339
+14 3 3 9666 10 13 13967
+15 19 28 194435 21 23 20284
+16 3 3 8607 8 10 2126
+17 35 64 522796 9 26 18706
+18 0 0 0 5 6 6647
+19 3 3 7863 13 24 174003
+20 13 16 69635 6 11 31136
+21 2 2 5242 8 12 53673
+22 5 5 7863 13 15 13612
+23 2 2 2621 12 12 15189
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 231 283 1372760
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 128 280571 20090430200804 0
+\wbot[\/\-] 50 46289 20090414042531 0
+slurp 34 77478 20090427121752 0
+jeeves 12 31452 20090430231442 0
+msnbot 7 13968 20090429001754 0
+yandex 5 13105 20090427170438 0
+robot 4 13004 20090426064716 0
+speedy 2 5242 20090425024532 0
+nutch 2 5242 20090409135815 0
+netcraft 1 2621 20090408205536 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+bmp 17 172618 0 0
+html 80 177473 0 0
+jpg 35 847937 0 0
+htm 151 174732 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+winxp 172
+winlong 11
+win2003 48
+win2000 10
+win98 1
+Unknown 31
+linuxfedora 10
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+msie6.0 55
+firefox1.0.7 10
+firefox3.0.7 40
+mozilla 23
+msie7.0 86
+opera 50
+netscape4.0 8
+firefox3.0.8 4
+safari 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20090425142918
+Mozilla/5.0_(compatible;_Charlotte/1.1;_http://www.searchme.com/support/) 20090421112027
+Mozilla/5.0_(compatible;_Charlotte/1.0t;_http://www.searchme.com/support/) 20090406175858
+Mozilla/4.0 20090403171140
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 160 160
+From1 0 0
+From2 1 1
+From3 7 10
+From4 63 112
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+search 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.keywordspy.com/keyword-research/thebluegarage.com 6 6
+http://www.linkedin.com/profile 1 1
+http://209.85.173.132/search 0 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+false 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+false 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 19 4161
+206 3 7863
+404 162 96066
+301 6 1600
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 7
+/templates_c/index.html 1 -
+/img/toolsnfixtures/homebutton.JPG 25 http://www.thebluegarage.com/
+/robots.txt 132 -
+/administrator/ 1 -
+/img/Photo%20Album/Assembly/images/P1010028_JPG.jpg 1 -
+/(null) 1 -
+/img/Photo%20Album/Assembly/pages/P1010028_JPG.htm 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 44
+74.52.45.250 50 50 46289 20090416050347
+38.105.83.13 48 48 43278 20090415085533
+192.104.67.222 14 40 387858 20090403171452
+69.58.178.32 10 10 26995 20090411151813
+150.70.84.24 10 10 9500 20090403173719
+174.133.28.170 9 9 27972 20090401204455
+208.115.138.254 8 8 8606 20090403171140
+208.80.195.37 8 8 20968 20090428013943
+64.56.65.37 6 6 15726 20090423013927
+208.111.154.35 5 5 0 20090412131935
+208.80.195.30 1 1 2621 20090430204218
+67.183.6.15 1 4 33827 20090405024409
+208.80.195.29 3 3 7863 20090406033804
+208.80.195.39 2 2 5242 20090421011935
+208.111.154.33 1 1 0 20090406081356
+208.111.154.16 4 4 0 20090409114645
+208.80.195.43 1 1 2621 20090415010329
+208.80.195.44 1 1 2621 20090413171255
+82.99.30.32 1 1 3338 20090415203237
+24.113.234.184 1 6 232154 20090405133507
+208.80.195.40 4 4 10484 20090422053103
+208.138.254.150 1 1 2621 20090427024238
+82.99.30.40 1 1 2621 20090415202511
+216.220.193.132 1 6 113719 20090420155128
+71.139.205.245 0 3 90790 
+208.80.195.42 4 4 10484 20090430102933
+208.80.195.32 5 5 13105 20090424192411
+208.80.195.35 3 3 7863 20090423013827
+208.111.154.15 4 4 0 20090421112027
+208.80.195.28 1 1 2621 20090429162724
+208.80.195.31 2 2 5242 20090429061143
+38.108.180.173 4 4 13748 20090425142918
+208.80.195.36 2 2 5242 20090413055828
+208.111.154.28 1 1 0 20090412085907
+208.80.195.51 3 3 7863 20090426194709
+204.62.53.122 1 4 111590 20090406175857
+208.80.195.41 1 1 2621 20090416082513
+208.80.195.34 4 4 10484 20090409200444
+75.172.66.157 0 3 30462 
+208.80.195.49 2 2 5242 20090419110332
+72.94.249.34 1 1 2621 20090408213330
+208.80.195.27 1 1 2621 20090423125607
+208.80.195.38 1 1 2621 20090405172637
+24.22.163.52 0 4 40616 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20090401 15 15 35835 3
+20090402 4 4 10484 2
+20090403 36 62 411206 5
+20090404 2 6 45858 2
+20090405 7 15 276465 5
+20090406 4 7 116832 4
+20090407 1 1 2621 1
+20090408 4 7 38325 4
+20090409 3 3 5242 3
+20090410 1 4 93411 1
+20090411 13 13 32237 4
+20090412 4 4 0 4
+20090413 2 2 5242 2
+20090415 52 52 54479 5
+20090416 51 51 48910 2
+20090417 1 1 2621 1
+20090418 2 2 5242 2
+20090419 2 2 5242 2
+20090420 2 7 116340 2
+20090421 3 3 5242 3
+20090422 2 2 5242 2
+20090423 6 6 16443 4
+20090424 3 3 8607 3
+20090425 2 2 7045 2
+20090426 2 2 5242 2
+20090427 2 2 5242 2
+20090428 1 1 2621 1
+20090429 2 2 5242 2
+20090430 2 2 5242 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+2mn-5mn 2
+30s-2mn 2
+0s-30s 72
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 60
+/ 72 175607 58 56
+/aboutus.htm 9 26704 3 3
+/contactus.htm 9 26920 4 4
+/img/Photo%20Album/Prototypes/index.htm 7 13062 1 0
+/img/Photo%20Album/Prototypes/pages/Picture37_jpg.htm 5 3020 0 1
+/products.htm 5 17696 2 2
+/img/Photo%20Album/MaterialHandling/index.htm 5 6095 1 0
+/img/Photo%20Album/MaterialHandling/pages/Picture2_jpg.htm 5 3070 1 0
+/img/Photo%20Album/Prototypes/ 5 1866 3 3
+/index.htm 4 10484 1 1
+/img/Photo%20Album/Test/pages/Picture39_jpg.htm 2 984 0 0
+/img/Photo%20Album/Assembly/pages/Picture4_jpg.htm 2 926 0 0
+/img/Photo%20Album/Assembly/pages/Picture9_jpg.htm 1 457 0 0
+/img/Photo%20Album/Assembly/pages/Picture51_jpg.htm 2 934 0 0
+/img/Photo%20Album/Assembly/pages/Picture52_jpg.htm 2 934 0 0
+/img/Photo%20Album/Assembly/pages/Picture50_jpg.htm 2 932 0 0
+/img/Photo%20Album/Assembly/pages/Picture8_jpg.htm 2 922 0 0
+/img/Photo%20Album/MaterialHandling/ 2 0 2 2
+/img/Photo%20Album/Test/pages/Picture29_jpg.htm 2 984 0 0
+/img/Photo%20Album/Assembly/pages/Picture55_JPG.htm 2 932 0 0
+/img/Photo%20Album/Assembly/pages/Picture54_jpg.htm 2 934 0 1
+/img/Photo%20Album/Assembly/pages/Picture44_jpg.htm 2 932 0 0
+/img/Photo%20Album/Assembly/pages/Picture47_jpg.htm 2 934 0 0
+/img/Photo%20Album/MaterialHandling/pages/Picture43_jpg.htm 1 513 0 0
+/img/Photo%20Album/Assembly/pages/Picture46_jpg.htm 2 934 0 0
+/img/Photo%20Album/Assembly/pages/Picture5_jpg.htm 2 926 0 0
+/img/Photo%20Album/Assembly/pages/Picture25_jpg.htm 2 934 0 0
+/img/Photo%20Album/Test/pages/Picture56_jpg.htm 2 984 0 0
+/img/Photo%20Album/Test/pages/Picture6_jpg.htm 2 968 0 0
+/img/Photo%20Album/Test/pages/Picture20_jpg.htm 2 986 0 0
+/img/Photo%20Album/Assembly/pages/Picture48_jpg.htm 2 932 0 0
+/img/Photo%20Album/Assembly/pages/Picture12_jpg.htm 2 934 0 0
+/img/Photo%20Album/Test/pages/Picture3_jpg.htm 2 978 0 0
+/img/Photo%20Album/Test/ 1 0 1 1
+/img/Photo%20Album/Test/pages/Picture21_jpg.htm 2 986 0 0
+/img/Photo%20Album/Prototypes/pages/prototype2_jpg.htm 4 2032 0 0
+/img/Photo%20Album/Test/pages/Picture55_jpg.htm 2 986 0 0
+/img/Photo%20Album/Prototypes/pages/Picture49_jpg.htm 4 2012 0 0
+/img/Photo%20Album/Prototypes/pages/Picture37a_jpg.htm 3 1521 0 2
+/img/Photo%20Album/Prototypes/pages/prototype_jpg.htm 4 2016 0 0
+/img/Photo%20Album/Assembly/pages/Picture30_jpg.htm 2 934 0 0
+/img/Photo%20Album/Assembly/pages/Picture14_jpg.htm 2 934 0 0
+/img/Photo%20Album/Test/pages/Picture22_jpg.htm 2 986 0 0
+/img/Photo%20Album/Test/pages/Picture40_jpg.htm 2 986 0 0
+/img/Photo%20Album/Assembly/index.htm 3 12228 0 0
+/img/Photo%20Album/Prototypes/pages/prototype3_jpg.htm 2 1004 0 0
+/img/Photo%20Album/Assembly/pages/Picture33_jpg.htm 2 934 0 0
+/img/Photo%20Album/Assembly/pages/Picture10_jpg.htm 2 932 0 0
+/img/Photo%20Album/Test/pages/Picture28_jpg.htm 2 986 0 0
+/img/Photo%20Album/Assembly/pages/Picture31_jpg.htm 1 467 0 0
+/img/Photo%20Album/Assembly/pages/Picture35_jpg.htm 2 932 0 0
+/img/Photo%20Album/Assembly/pages/Picture11_jpg.htm 2 934 0 0
+/img/Photo%20Album/Assembly/pages/Picture7_jpg.htm 2 924 0 0
+/img/Photo%20Album/Test/pages/Picture24_jpg.htm 2 986 0 0
+/img/Photo%20Album/MaterialHandling/pages/Picture42_jpg.htm 1 518 0 0
+/img/Photo%20Album/Test/pages/Picture27_jpg.htm 2 986 0 0
+/img/Photo%20Album/Test/pages/Picture26_jpg.htm 2 986 0 0
+/img/Photo%20Album/Test/pages/Picture18_jpg.htm 2 1182 0 0
+/img/Photo%20Album/Test/index.htm 3 8466 0 0
+/img/Photo%20Album/Assembly/pages/Picture1_JPG.htm 3 1929 0 1
+END_SIDER

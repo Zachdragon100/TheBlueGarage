@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+		p {
+			text-align:center;
+			font-size:24px;
+			}
+		h1 {
+			text-align: center;
+			font-size: 48px;
+			vertical-align: middle;
+			line-height:none
+			}
+		.tt1 {
+			text-wrap: none;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 36px;
+			font-weight: 700;
+			}
+		.tt2 {
+			font-family:'Brush Script MT';
+			font-size:36px;
+			}
+		.desc {
+			font-size:20px;
+			}
+		.subdesc {
+			font-size:10px;
+			}
+		td.productdata {
+			padding:8px;
+			text-align:center;
+			}
+		td.side {
+			vertical-align:top;
+			}
+		td.middle {
+			text-align: center;
+			width: 100%;
+			padding-left:200px;
+			padding-right:200px;
+			}
+		td.middle2 {
+			text-align: center;
+			width: 100%;
+			padding-left:20px;
+			padding-right:20px;
+			}
+		body {
+			background-color: #000000;
+			background-image: url(img/background_Pattern.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			color: #FFFFFF;
+			}
+		hr {
+			width:95%;
+			}
+		a{
+			color:inherit;
+			text-decoration:inherit;
+			}

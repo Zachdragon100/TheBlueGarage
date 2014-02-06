@@ -1,0 +1,319 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201307 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2525                
+POS_VISITOR 8278                
+POS_DAY 8804                
+POS_DOMAIN 3214                
+POS_LOGIN 3441                
+POS_ROBOT 3596                
+POS_WORMS 4233                
+POS_EMAILSENDER 4364                
+POS_EMAILRECEIVER 4507                
+POS_SESSION 9055                
+POS_SIDER 9202                
+POS_FILETYPES 4642                
+POS_OS 4760                
+POS_BROWSER 4858                
+POS_SCREENSIZE 4988                
+POS_UNKNOWNREFERER 5062                
+POS_UNKNOWNREFERERBROWSER 5453                
+POS_ORIGIN 5758                
+POS_SEREFERRALS 5891                
+POS_PAGEREFS 6056                
+POS_SEARCHWORDS 6291                
+POS_KEYWORDS 6495                
+POS_MISC 2189                
+POS_ERRORS 6596                
+POS_CLUSTER 3297                
+POS_SIDER_404 6718                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130715184514 1615 308455 0
+FirstTime 0
+LastTime 20130715184512
+LastUpdate 20130715214446 1615 1574 41 0 0
+TotalVisits 12                  
+TotalUnique 11                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 11                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 6 113719 11 14 110416
+1 1 1 4424 8 13 118648
+2 0 0 0 26 31 181651
+3 0 0 0 18 23 176741
+4 1 1 2621 46 55 438908
+5 2 11 363024 19 29 301103
+6 1 6 113719 21 28 238467
+7 11 11 29592 16 19 122643
+8 0 0 0 13 15 88676
+9 2 7 116340 17 23 219465
+10 0 0 0 14 19 148864
+11 1 1 2621 70 71 130956
+12 0 0 0 21 23 122720
+13 0 0 0 23 25 84423
+14 0 0 0 82 84 199904
+15 0 0 0 15 24 216628
+16 11 11 27256 32 35 172240
+17 0 0 0 12 13 36357
+18 1 6 113719 8 14 137514
+19 1 1 2621 15 15 31231
+20 0 0 0 12 13 35890
+21 2 2 5242 24 30 165716
+22 0 0 0 19 24 286901
+23 0 0 0 9 10 20357
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 35 64 894898
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+googlebot 106 643581 20130715124238 0
+robot 101 1830810 20130715081029 0
+bot[+:,\.\;\/\\-] 93 112531 20130715165831 0
+crawl 64 69397 20130710145647 0
+yandex 28 94772 20130714160228 0
+baiduspider 26 56337 20130715055512 0
+msnbot\-media 13 301438 20130714063621 0
+legs 10 60302 20130709023950 0
+[+:,\.\;\/\\-]bot 9 21822 20130713121732 0
+slurp 6 113719 20130712151642 0
+no_user_agent 2 5242 20130708040619 0
+spider 4 5242 20130712162314 0
+surveybot 2 5242 20130713135533 0
+netcraft 1 2621 20130708115336 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+bmp 20 203080 0 0
+html 11 28831 0 0
+jpg 9 597291 0 0
+htm 24 65696 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+winlong 1
+winxp 14
+win2003 11
+Unknown 6
+linux 9
+win2008 23
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 7
+lynx 2
+chrome 13
+Unknown 4
+msie7.0 12
+firefox14.0.1 9
+firefox22.0 7
+msie10.0 17
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20130701212629
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20130711075537
+NCBot_(http://netcomber.com_:_tool_for_finding_true_domain_owners)_Queries/complaints:_bot@netcomber.com 20130714190303
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20130711075537
+NCBot_(http://netcomber.com_:_tool_for_finding_true_domain_owners)_Queries/complaints:_bot@netcomber.com 20130714190303
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 24 24
+From1 0 0
+From2 6 6
+From3 3 3
+From4 2 31
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 5 5
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://netcomber.com 2 2
+http://evuln.com/tools/malware-scanner/thebluegarage.com/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+blue+garage 2
+thebluegarage.com 2
+the+blue+garage 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+garage 3
+blue 3
+thebluegarage.com 2
+the 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 2 428
+206 7 18347
+406 1 263
+404 175 444325
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 23
+/robots.txt 143 -
+/admin.php 1 -
+//language/en-GB/en-GB.xml 1 -
+/index.htm/contactus.htm 1 http://thebluegarage.com/index.htm
+/img/Photo%20Album/Assembly/pages/P1010028_JPG.htm 3 -
+/img/toolsnfixtures/homebutton.JPG 6 http://www.thebluegarage.com/
+/administrator/index.php 1 -
+/img/Photo%20Album/Assembly/images/P1010028_JPG.jpg 2 -
+//wp-login.php 1 -
+/admin/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 http://THEBLUEGARAGE.COM/admin/FCKeditor/editor/filemanager/connectors/uploadtest.html
+/wp-trackback.php 1 -
+/blog/wp-trackback.php 1 -
+/a[i+2] 1 -
+/admin/fckeditor/editor/filemanager/connectors/uploadtest.html 1 http://THEBLUEGARAGE.COM/admin/fckeditor/editor/filemanager/connectors/uploadtest.html
+/administrator/ 2 -
+/wordpress/wp-trackback.php 1 -
+/FCKeditor/editor/filemanager/upload/test.html 1 http://THEBLUEGARAGE.COM/FCKeditor/editor/filemanager/upload/test.html
+/fckeditor/editor/filemanager/connectors/uploadtest.html 1 http://THEBLUEGARAGE.COM/fckeditor/editor/filemanager/connectors/uploadtest.html
+/wp/wp-trackback.php 1 -
+/news/wp-trackback.php 1 -
+/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 http://THEBLUEGARAGE.COM/FCKeditor/editor/filemanager/connectors/uploadtest.html
+/admin/ 2 -
+/phppath/php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 11
+38.100.21.62 11 11 27256 20130707165510
+69.58.178.57 11 11 29592 20130711075544
+196.28.154.166 2 11 363024 20130705051626
+193.145.150.49 2 7 116340 20130715092253
+85.25.134.59 2 2 5242 20130714190303
+78.158.11.226 2 2 5242 20130701212629
+131.253.26.224 1 1 4424 20130708012812
+98.236.214.108 1 6 113719 20130715184512 20130715184512 /
+87.217.170.188 1 6 113719 20130706064126
+80.58.250.91 1 6 113719 20130706005918
+173.204.19.11 1 1 2621 20130702043747
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20130701 2 2 5242 1
+20130702 1 1 2621 1
+20130705 2 11 363024 1
+20130706 2 12 227438 2
+20130707 12 12 29877 2
+20130708 1 1 4424 1
+20130711 11 11 29592 1
+20130714 1 1 2621 1
+20130715 3 13 230059 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 11 28831 10 5
+/index.htm 5 13105 1 2
+/products.htm 4 17696 1 2
+/aboutus.htm 2 6676 0 0
+/img/Photo%20Album/MaterialHandling/index.htm 2 2438 0 0
+/contactus.htm 2 6682 0 0
+/img/Photo%20Album/Prototypes/index.htm 2 3732 0 0
+/img/Photo%20Album/Assembly/index.htm 2 8152 0 0
+/img/Photo%20Album/Test/index.htm 2 5644 0 0
+/img/Photo%20Album/Assembly/pages/Picture51_jpg.htm 1 467 0 1
+/img/Photo%20Album/Assembly/pages/Picture8_jpg.htm 1 461 0 0
+/img/Photo%20Album/Assembly/pages/Picture1_JPG.htm 1 643 0 1
+END_SIDER

