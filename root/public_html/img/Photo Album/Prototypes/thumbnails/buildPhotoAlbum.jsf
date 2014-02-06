@@ -1,0 +1,60 @@
+App.progressCountTotal = 7;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/products/prototype/Picture37.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'Picture37.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture37_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture37_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture37_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture37_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture37_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture37_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/products/prototype/Picture37a.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'Picture37a.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture37a_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture37a_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture37a_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture37a_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture37a_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture37a_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/products/prototype/Picture38.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'Picture38.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture38_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture38_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture38_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture38_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture38_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture38_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/products/prototype/Picture49.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'Picture49.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture49_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture49_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/Picture49_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture49_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture49_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/Picture49_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/products/prototype/prototype.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'prototype.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/prototype_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/prototype_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/prototype_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/prototype_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/prototype_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/prototype_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/products/prototype/prototype2.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'prototype2.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/prototype2_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/prototype2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/prototype2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/prototype2_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/prototype2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/prototype2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/products/prototype/prototype3.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'prototype3.jpg';
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/prototype3_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/prototype3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/images/prototype3_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/prototype3_jpg.jpg') || confirm('file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/prototype3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Documents and Settings/Family/My Documents/My Webs/The Blue Garage/img/Photo Album/Prototypes/thumbnails/prototype3_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';
